@@ -1,0 +1,35 @@
+/* Estilos para el Carousel */
+.carousel {
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para ocultar los bordes de las imágenes */
+    max-width: 1100px;
+    max-height: 800px; /* Ancho máximo del Carousel */
+    margin: auto; /* Centrar el Carousel */
+}
+
+/* Estilos para las imágenes dentro del Carousel */
+.carousel-item img {
+    border-radius: 10px; /* Bordes redondeados */
+    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor manteniendo la proporción */
+    height: 300px; /* Altura deseada de las imágenes */
+    width: auto; /* Ancho automático para mantener la proporción */
+}
+
+/* Estilos para las leyendas (captions) */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    color: white; /* Color del texto */
+    border-radius: 0 0 10px 10px; /* Bordes redondeados en la parte inferior */
+    bottom: 0; /* Alinear la leyenda en la parte inferior */
+    left: 0; /* Alinear la leyenda a la izquierda */
+    right: 0; /* Alinear la leyenda a la derecha */
+}
+
+/* Estilos para los títulos y descripciones dentro de las leyendas */
+.carousel-caption h3 {
+    font-size: 24px; /* Tamaño del título */
+}
+
+.carousel-caption p {
+    font-size: 16px; /* Tamaño del texto */
+}

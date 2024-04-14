@@ -1,0 +1,96 @@
+.divCards {
+    display: flex;
+    margin: 2% !important;
+    padding: 2% !important;
+    flex-flow: row wrap;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 9px;
+    text-align: center;
+    text-rendering: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card2 {
+    padding: 1% !important;
+    height: 60% !important;
+    margin: 5% !important;
+    width: 19% !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
+    border-radius: 9px;
+    background-color: #E0E0E0 !important; /* Gris */
+    border: 2px solid #2196F3 !important; /* Azul */
+}
+
+img {
+    border-radius: 9px;
+    width: 90% !important;
+    margin: auto;
+    display: block;
+    max-width: 100%; 
+}
+
+.card2 h5 {
+    text-align: center;
+    color: #2196F3 !important; /* Azul */
+}
+
+.card2 p {
+    text-align: center;
+    text-align: justify;
+    color: #424242 !important; /* Gris */
+}
+
+.card2 button {
+    justify-content: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFFF !important; /* Blanco */
+    border: #2196F3 1px solid !important; /* Azul */
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card2 button:hover {
+    justify-content: center;
+    background-color: #1976D2 !important; /* Azul más oscuro */
+    border: #1976D2 1px solid !important; /* Azul más oscuro */
+}
+
+body {
+    background: linear-gradient(to bottom right, #BBDEFB 50%, #E0E0E0 50%) !important; /* Gradiente de azul a gris */
+}
+
+.card2 {
+    padding: 1% !important;
+    margin: 2% !important; /* Modificado para que haya un margen uniforme */
+    width: 350px !important; /* Ancho fijo */
+    height: 500px !important; /* Altura fija */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50psx !important;
+    border-radius: 9px;
+    background-color: #E0E0E0 !important; /* Gris */
+    border: 2px solid #2196F3 !important; /* Azul */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
+}
+
+.card2 img {
+    border-radius: 9px;
+    width: 60% !important; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 40% !important; /* Ajusta la altura de la imagen al 100% del contenedor */
+    object-fit: contain; /* Escala la imagen para llenar el contenedor, recortando si es necesario */
+    transition: transform 0.3s ease;
+}
+
+.card2 img:hover {
+    transform: scale(1.1); 
+    text-align: center;
+}
+
+.card2 p{
+    text-align: center;
+}
+
+.btn{
+    justify-content:center !important;
+}

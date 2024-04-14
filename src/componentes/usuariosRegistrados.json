@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "nombres": "alejandro",
+        "apellidos": "rojas ",
+        "email": "arojas3182@soy.sena.edu.co",
+        "password": "As1007492813*",
+        "direccion": "clla45 Av 3 sur",
+        "identificacion": "1007492813",
+        "telefono": "3135470203",
+        "genero": "masculino",
+        "ciudadNacimiento": "Popayán",
+        "fechaNacimiento": "2024-02-09",
+        "fecha_creación": "2024-02-28T20:12:09.290Z"
+    },
+    {
+        "id": 2,
+        "identificacion": "1007492813",
+        "nombres": "alejandro",
+        "apellidos": "rojas ",
+        "email": "junior3432@outlook.es",
+        "direccion": "clla45 Av 3 sur",
+        "telefono": "3152437245",
+        "password": "As1007492813*",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-03-20T22:41:46.130Z"
+    }
+]

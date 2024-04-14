@@ -1,0 +1,29 @@
+/* Estilos para el logo */
+.logo {
+    width: 5%;
+}
+
+/* Estilos para el contenedor */
+header .navbar {
+    background-color: #1976D2; /* Azul */
+    padding: 10px 0;
+    border-radius: 20px; /* Bordes redondeados */
+    margin: 0 auto; /* Centramos el navbar en la pantalla */
+    max-width: 1100px; /* Ancho máximo para el navbar */
+}
+
+/* Estilos para el enlace de la marca */
+.navbar-brand {
+    color: #FFFFFF; /* Blanco */
+    font-weight: bold;
+}
+
+/* Estilos para los enlaces del navbar */
+.nav-link {
+    color: #FFFFFF; /* Blanco */
+}
+
+/* Estilos para el fondo del header */
+.bg-body-tertiary {
+    background-color: #1976D2; /* Azul */
+}

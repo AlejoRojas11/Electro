@@ -1,0 +1,8 @@
+footer {
+    background-color: #BBDEFB !important; /* Azul */
+    color: #FFFFFF; /* Blanco */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px, rgba(0, 0, 0, 0.05) 0px 1px 2px; /* Sombra más sutil */
+    border-radius: 5px;
+    margin: 2%;
+    padding: 2%;
+}
